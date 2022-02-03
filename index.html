@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rekenen.css">
+    <title>rekenen Luuk</title>
+</head>
+<body>
+    <div id="display">
+        <h2>Rekenmachine</h2>
+        <input placeholder ="getal 1" id="invoer1"></input>
+        <input placeholder = "getal 2" id="invoer2"></input>
+        <input placeholder = "x - + /" id="operator"></input>
+        <div id="uitkomst"></div>
+        <button id="berekenen">Reken uit!</button>
+        <button class="wissen" id="wis">Wis alles</button>
+    </div>
+    <div class="oppervlakteMachine">
+        <h2>Rekenmachine Oppervlakte(vierkant/rechthoek)</h2>
+        <input id="lengte" placeholder="lengte">
+        <input id="breedte" placeholder="breedte">
+        <div class="oppervlakte" id="oppervlakte"></div>
+        <button id="oppervlakteUitkomst">Reken uit!</button>
+        <button class="wissenOppervlakte" id="wisOppervlakte">Wis oppervlakte</button>
+    </div>
+    <h2>Rekenmachine Oppervlakte cirkel</h2>
+    <div class="rekenmachineCirkel">
+        <input id="straal" placeholder="straal">
+        <div class="cirkel" id="cirkel"></div>
+        <button class="oppervlakteCirkel" id="oppervlakteCirkel">Bereken oppervlakte</button>
+        <button class="omtrekCirkel" id="omtrekCirkel">Bereken omtrek</button>
+        <button class="wisOppervlakteCirkel" id="wisOppervlakteCirkel">Wis alles</button>
+    </div>
+
+    <script src="rekenen.js"></script>
+</body>
+</html>
