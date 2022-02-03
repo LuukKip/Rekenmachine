@@ -1,0 +1,103 @@
+.cijfers-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 360px;
+    flex-wrap: wrap;
+}
+
+.cijfers{
+    width: 120px;
+    padding: 5px;
+    background-color: rgb(106, 150, 151);
+    color: white;
+}
+
+#cijfer0 { 
+    width: 360px;
+}
+
+.cijfers:hover { 
+    cursor: pointer;
+    background-color: rgb(166, 212, 212);
+}
+
+#invoer1 {
+    padding: 5px;
+    background-color: rgb(25, 235, 235);
+    color: black;
+}
+
+#invoer2 {
+    padding: 5px;
+    background-color: rgb(25, 235, 235);
+    color: black;
+}
+
+#operator {
+    padding: 5px;
+    background-color: rgb(25, 235, 235);
+    color: black;
+}
+
+#berekenen {
+    background-color: cyan;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+.wissen{
+    background-color: red;
+    padding: 5px;
+}
+
+.wissen:hover{
+    cursor: pointer;
+}
+
+#lengte{
+    background-color: lawngreen;
+    padding: 5px;
+}
+
+#breedte{
+    background-color: lawngreen;
+    padding: 5px;
+}
+
+#oppervlakteUitkomst{
+    background-color: royalblue;
+    padding: 5PX;
+    cursor: pointer;
+}
+
+.wissenOppervlakte{
+    background: red;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#straal{
+    background: cyan;
+    color: black;
+    padding: 5px;
+}
+
+.oppervlakteCirkel{
+    background-color: cyan;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.wisOppervlakteCirkel{
+    background: red;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.omtrekCirkel{
+    background-color: cyan;
+    padding: 5px;
+    cursor: pointer;
+}
